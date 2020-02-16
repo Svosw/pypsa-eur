@@ -161,6 +161,8 @@ solving:
     min_iterations: 1
     max_iterations: 1
     clip_p_max_pu: 0.01
+    skip_iterations: false
+    track_iterations: false
     #nhours: 10
   solver:
     name: cbc
@@ -303,6 +305,9 @@ plotting:
     offwind-ac: "Offshore Wind (AC)"
     offwind-dc: "Offshore Wind (DC)"
     onwind: "Onshore Wind"
+    solar: "Solar"
+    PHS: "Pumped Hydro Storage"
+    hydro: "Reservoir & Dam"
     battery: "Battery Storage"
     H2: "Hydrogen Storage"
     lines: "Transmission lines"
@@ -317,3 +322,5 @@ plotting:
     H2: "Hydrogen\nStorage"
     lines: "Transmission\nlines"
     ror: "Run of\nriver"
+    PHS: "Pumped Hydro\nStorage"
+    hydro: "Reservoir\n& Dam"
